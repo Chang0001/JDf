@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_all"
+    android:orientation="vertical" >
+
+    <com.fanwe.p2p.customview.SDSimpleTitleView
+        android:id="@+id/act_ucRepBorAdv_sd_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@drawable/bg_title" >
+    </com.fanwe.p2p.customview.SDSimpleTitleView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/page_space" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rec_single_set_item"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:id="@+id/act_ucRepBorAdv_tv_name"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="上海金汇南路个人房产抵押借款（2/2）"
+                        android:textColor="@color/text_black_deep"
+                        android:textSize="19sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <com.fanwe.p2p.customview.SDSimpleProjectDetailItemView
+                        android:id="@+id/act_ucRepBorAdv_borrow_amount_format"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_confirm_bid_item" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="@drawable/line_seperate_horizontal" />
+
+                    <com.fanwe.p2p.customview.SDSimpleProjectDetailItemView
+                        android:id="@+id/act_ucRepBorAdv_rate"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_confirm_bid_item" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="@drawable/line_seperate_horizontal" />
+
+                    <com.fanwe.p2p.customview.SDSimpleProjectDetailItemView
+                        android:id="@+id/act_ucRepBorAdv_repay_money"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_confirm_bid_item" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="@drawable/line_seperate_horizontal" />
+
+                    <com.fanwe.p2p.customview.SDSimpleProjectDetailItemView
+                        android:id="@+id/act_ucRepBorAdv_repay_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_confirm_bid_item" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="@drawable/line_seperate_horizontal" />
+
+                    <com.fanwe.p2p.customview.SDSimpleProjectDetailItemView
+                        android:id="@+id/act_ucRepBorAdv_month_manage_money_format"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_confirm_bid_item" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="@drawable/line_seperate_horizontal" />
+
+                    <com.fanwe.p2p.customview.SDSimpleProjectDetailItemView
+                        android:id="@+id/act_ucRepBorAdv_impose_money_format"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_confirm_bid_item" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="@drawable/line_seperate_horizontal" />
+
+                    <com.fanwe.p2p.customview.SDSimpleProjectDetailItemView
+                        android:id="@+id/act_ucRepBorAdv_total_repay_money_format"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_confirm_bid_item" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/act_uc_repay_borrow_advance_bg0"
+                android:padding="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:text="合计还款"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/act_ucRepBorAdv_true_total_repay_money_format"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:text="3280.00"
+                    android:textColor="@color/text_orange_deep"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/act_ucRepBorAdv_btn_pay"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/act_project_detail_left_btn"
+                    android:text="充值"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/act_ucRepBorAdv_btn_repay"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/act_project_detail_right_btn"
+                    android:text="确认还款"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

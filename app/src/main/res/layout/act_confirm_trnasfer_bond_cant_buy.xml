@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_all"
+    android:orientation="vertical" >
+
+    <com.fanwe.p2p.customview.SDSimpleTitleView
+        android:id="@+id/act_confirm_trnasfer_bond_cant_buy_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@drawable/bg_title" >
+    </com.fanwe.p2p.customview.SDSimpleTitleView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/page_space" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rec_single_set_item"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:id="@+id/act_confirm_trnasfer_bond_cant_buy_txt_name"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="上海金汇南路个人房产抵押借款（2/2）"
+                        android:textColor="@color/text_black_deep"
+                        android:textSize="19sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <com.fanwe.p2p.customview.SDSimpleProjectDetailItemView
+                        android:id="@+id/act_confirm_trnasfer_bond_cant_buy_sdview_remain_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_confirm_bid_item" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="@drawable/line_seperate_horizontal" />
+
+                    <com.fanwe.p2p.customview.SDSimpleProjectDetailItemView
+                        android:id="@+id/act_confirm_trnasfer_bond_cant_buy_sdview_repay_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_confirm_bid_item" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="@drawable/line_seperate_horizontal" />
+
+                    <com.fanwe.p2p.customview.SDSimpleProjectDetailItemView
+                        android:id="@+id/act_confirm_trnasfer_bond_cant_buy_sdview_next_repay_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_confirm_bid_item" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="@drawable/line_seperate_horizontal" />
+
+                    <com.fanwe.p2p.customview.SDSimpleProjectDetailItemView
+                        android:id="@+id/act_confirm_trnasfer_bond_cant_buy_sdview_transfer_amount"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_confirm_bid_item" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="@drawable/line_seperate_horizontal" />
+
+                    <com.fanwe.p2p.customview.SDSimpleProjectDetailItemView
+                        android:id="@+id/act_confirm_trnasfer_bond_cant_buy_sdview_left_benjin"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_confirm_bid_item" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="@drawable/line_seperate_horizontal" />
+
+                    <com.fanwe.p2p.customview.SDSimpleProjectDetailItemView
+                        android:id="@+id/act_confirm_trnasfer_bond_cant_buy_sdview_left_lixi"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_confirm_bid_item" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="@drawable/line_seperate_horizontal" />
+
+                    <com.fanwe.p2p.customview.SDSimpleProjectDetailItemView
+                        android:id="@+id/act_confirm_trnasfer_bond_cant_buy_sdview_transfer_income"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_confirm_bid_item" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rec_single_set_item"
+                android:orientation="vertical" >
+
+                <com.fanwe.p2p.customview.SDSimpleProjectDetailItemView
+                    android:id="@+id/act_confirm_trnasfer_bond_cant_buy_sdview_buyer"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_confirm_bid_item" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/line_seperate_horizontal" />
+
+                <com.fanwe.p2p.customview.SDSimpleProjectDetailItemView
+                    android:id="@+id/act_confirm_trnasfer_bond_cant_buy_sdview_buy_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_confirm_bid_item" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/act_confirm_trnasfer_bond_cant_buy_btn_confirm_buy"
+        style="@style/Text_nromal_white"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_btn_cant_buy_gray"
+        android:gravity="center"
+        android:text="购买"
+        android:textSize="19sp" />
+
+</LinearLayout>

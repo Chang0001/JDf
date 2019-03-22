@@ -1,0 +1,41 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\14203\\AndroidStudioProjects\\fanwe_P2P1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\14203\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.1.aar\\608b675ca2993f35df0a3f3c7f9f2b35\\res\\values-sw600dp\\values-sw600dp.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "12,13,14,15,16,17,18,19,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "502,571,641,711,790,866,925,996,1064",
+                        "endColumns": "68,69,69,78,75,58,70,67,54",
+                        "endOffsets": "566,636,706,785,861,920,991,1059,1114"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\14203\\AndroidStudioProjects\\fanwe_P2P1\\app\\src\\main\\res\\values-sw600dp\\color.xml",
+                    "from": {
+                        "startLines": "2,5,4,3,16,12,15,13,14,6",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "57,190,145,101,479,294,432,339,385,235",
+                        "endColumns": "42,43,43,42,43,43,45,44,45,47",
+                        "endOffsets": "95,229,184,139,518,333,473,379,426,278"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,98,142,186,229,273,317,363,408,454",
+                        "endColumns": "42,43,43,42,43,43,45,44,45,47",
+                        "endOffsets": "93,137,181,224,268,312,358,403,449,497"
+                    }
+                }
+            ]
+        }
+    ]
+}

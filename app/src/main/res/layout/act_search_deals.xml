@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:f="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_all"
+    android:orientation="vertical" >
+
+    <com.fanwe.p2p.customview.SDSimpleTitleView
+        android:id="@+id/act_search_deals_title"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@drawable/bg_title" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- 等级 -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="@dimen/width_search_left_ic_image"
+                        android:layout_height="@dimen/height_search_left_ic_image"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ic_search_condition_level" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_left_search_item"
+                        android:gravity="center"
+                        android:text="等级"
+                        android:textColor="@color/text_gray"
+                        android:textSize="@dimen/size_text_search_deals_condition_label" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal" >
+
+                    <com.fanwe.p2p.customview.FlowLayout
+                        xmlns:f="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/act_search_deals_flow_level"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        f:horizontalSpacing="12dip"
+                        f:orientation="horizontal"
+                        f:verticalSpacing="6dip" >
+                    </com.fanwe.p2p.customview.FlowLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line_seperate_search" />
+
+            <!-- 利率 -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="@dimen/width_search_left_ic_image"
+                        android:layout_height="@dimen/height_search_left_ic_image"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ic_search_condition_rate" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_left_search_item"
+                        android:gravity="center"
+                        android:text="利率"
+                        android:textColor="@color/text_gray"
+                        android:textSize="@dimen/size_text_search_deals_condition_label" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal" >
+
+                    <com.fanwe.p2p.customview.FlowLayout
+                        xmlns:f="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/act_search_deals_flow_rate"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        f:horizontalSpacing="12dip"
+                        f:orientation="horizontal"
+                        f:verticalSpacing="6dip" >
+                    </com.fanwe.p2p.customview.FlowLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line_seperate_search" />
+            <!-- 期限 -->
+
+
+            <!-- 借款状态 -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="@dimen/width_search_left_ic_image"
+                        android:layout_height="@dimen/height_search_left_ic_image"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ic_search_condition_time" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_left_search_item"
+                        android:gravity="center"
+                        android:text="借款状态"
+                        android:textColor="@color/text_gray"
+                        android:textSize="@dimen/size_text_search_deals_condition_label" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal" >
+
+                    <com.fanwe.p2p.customview.FlowLayout
+                        xmlns:f="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/act_search_deals_flow_deal_status"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        f:horizontalSpacing="12dip"
+                        f:orientation="horizontal"
+                        f:verticalSpacing="6dip" >
+                    </com.fanwe.p2p.customview.FlowLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line_seperate_search" />
+
+            <!-- 认证标识 -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="@dimen/width_search_left_ic_image"
+                        android:layout_height="@dimen/height_search_left_ic_image"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ic_search_condition_limit_time" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_left_search_item"
+                        android:gravity="center"
+                        android:text="认证标识"
+                        android:textColor="@color/text_gray"
+                        android:textSize="@dimen/size_text_search_deals_condition_label" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal" >
+
+                    <com.fanwe.p2p.customview.FlowLayout
+                        xmlns:f="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/act_search_deals_flow_cid"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        f:horizontalSpacing="12dip"
+                        f:orientation="horizontal"
+                        f:verticalSpacing="6dip" >
+                    </com.fanwe.p2p.customview.FlowLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line_seperate_search" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/act_search_deals_btn_search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_btn_search_normal"
+        android:text="搜索"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</LinearLayout>

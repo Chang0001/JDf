@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/view_simple_menu_item_img_title"
+        android:layout_width="@dimen/width_menu_item_left_ic_image"
+        android:layout_height="@dimen/height_menu_item_left_ic_image"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/icon"/>
+
+    <TextView
+        android:id="@+id/view_simple_menu_item_txt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10.0dip"
+        android:layout_toRightOf="@+id/view_simple_menu_item_img_title"
+        android:gravity="center"
+        android:text="我的账户"
+        android:textColor="@color/gray"
+        android:textSize="20.0sp" />
+
+
+</RelativeLayout>

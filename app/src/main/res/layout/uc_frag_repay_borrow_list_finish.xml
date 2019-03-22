@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <com.handmark.pulltorefresh.library.PullToRefreshListView
+            xmlns:ptr="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/frag_repay_borrow_list_finish_lsv_content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="@color/line_horizontal"
+            android:dividerHeight="1dp"
+            android:listSelector="#00000000"
+            ptr:ptrHeaderSubTextColor="@color/text_gray"
+            ptr:ptrHeaderTextColor="@color/text_gray" />
+
+        <TextView
+            android:id="@+id/frag_repay_borrow_list_finish_txt_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="未找到数据,下拉刷新重试!"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

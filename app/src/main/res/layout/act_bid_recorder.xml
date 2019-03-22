@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_all"
+    android:orientation="vertical" >
+
+    <com.fanwe.p2p.customview.SDSimpleTitleView
+        android:id="@+id/act_bid_recorder_title"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/title_height" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <com.handmark.pulltorefresh.library.PullToRefreshListView
+                xmlns:ptr="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/act_bid_recorder_lsv_deals"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:cacheColorHint="#00000000"
+                android:divider="@null"
+                android:fastScrollEnabled="true"
+                android:dividerHeight="10dp"
+                android:listSelector="#00000000"
+                ptr:ptrHeaderSubTextColor="@color/text_gray"
+                ptr:ptrHeaderTextColor="@color/text_gray" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/act_bid_recorder_txt_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            android:text="未找到数据,下拉刷新重试!" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,248 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_all"
+    android:orientation="vertical" >
+
+    <com.fanwe.p2p.customview.SDSimpleTitleView
+        android:id="@+id/act_registe_title"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="#3B95D3" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/page_space"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_registe_top_part"
+                    android:orientation="vertical"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp" >
+
+                    <!-- 输入用户名 -->
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="@dimen/width_registe_left_ic_image"
+                            android:layout_height="@dimen/height_registe_left_ic_image"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_registe_username" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginLeft="@dimen/margin_left_edt_registe"
+                            android:orientation="vertical" >
+
+                            <com.fanwe.p2p.customview.ClearEditText
+                                android:id="@+id/act_registe_edt_username"
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:background="@null"
+                                android:hint="请输入用户名"
+                                android:imeOptions="actionNext" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/line_seperate" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <!-- 输入密码 -->
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="@dimen/width_registe_left_ic_image"
+                            android:layout_height="@dimen/height_registe_left_ic_image"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_registe_password" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginLeft="@dimen/margin_left_edt_registe"
+                            android:orientation="vertical" >
+
+                            <com.fanwe.p2p.customview.ClearEditText
+                                android:id="@+id/act_registe_edt_password"
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:background="@null"
+                                android:hint="请输入密码"
+                                android:imeOptions="actionNext"
+                                android:inputType="textPassword" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/line_seperate" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <!-- 再次输入密码 -->
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="@dimen/width_registe_left_ic_image"
+                            android:layout_height="@dimen/height_registe_left_ic_image"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_registe_password_confirm" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginLeft="@dimen/margin_left_edt_registe"
+                            android:orientation="vertical" >
+
+                            <com.fanwe.p2p.customview.ClearEditText
+                                android:id="@+id/act_registe_edt_confirm_password"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:background="@null"
+                                android:hint="再次输入密码"
+                                android:imeOptions="actionNext"
+                                android:inputType="textPassword" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bg_registe_bottom_part"
+                    android:orientation="vertical"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp" >
+
+                    <!-- 输入手机号 -->
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="@dimen/width_registe_left_ic_image"
+                            android:layout_height="@dimen/height_registe_left_ic_image"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_registe_cellphone_number" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginLeft="@dimen/margin_left_edt_registe"
+                            android:orientation="vertical" >
+
+                            <com.fanwe.p2p.customview.ClearEditText
+                                android:id="@+id/act_registe_edt_cellphone_number"
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:background="@null"
+                                android:hint="输入手机号"
+                                android:imeOptions="actionNext"
+                                android:inputType="number|phone" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/line_seperate" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <!-- 输入验证码 -->
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="@dimen/width_registe_left_ic_image"
+                            android:layout_height="@dimen/height_registe_left_ic_image"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_registe_validate_code" />
+
+                        <com.fanwe.p2p.customview.ClearEditText
+                            android:id="@+id/act_registe_edt_validate_code"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginLeft="@dimen/margin_left_edt_registe"
+                            android:layout_weight="1"
+                            android:layout_marginRight="10dp"
+                            android:imeOptions="actionDone"
+                            android:background="@null"
+                            android:hint="输入验证码" />
+
+                        <com.fanwe.p2p.customview.SDSendValidateButton
+                            android:id="@+id/act_registe_btn_sand_validate"
+                            android:layout_width="90dp"
+                            android:layout_height="@dimen/edit_height"
+                            android:background="@drawable/bg_registe_send_validate_code"
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/act_registe_btn_registe"
+                    style="@style/Text_nromal_white"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/height_btn_registe"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_btn_registe_registe"
+                    android:gravity="center"
+                    android:text="注册" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,368 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragMainPage_parent_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_all"
+    android:orientation="vertical" >
+
+    <com.fanwe.p2p.customview.SDSimpleTitleView
+        android:id="@+id/frag_main_page_new_sd_title"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/title_height" />
+
+    <com.handmark.pulltorefresh.library.PullToRefreshScrollView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/frag_main_page_new_ptrsv_all"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        ptr:ptrHeaderSubTextColor="@color/text_gray"
+        ptr:ptrHeaderTextColor="@color/text_gray" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- 顶部 -->
+
+            <LinearLayout
+                android:id="@+id/fragMainPage_fl_head"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <com.fanwe.p2p.customview.AbSlidingPlayView
+                    android:id="@+id/frag_main_page_new_ap_ad"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+            </LinearLayout>
+
+            <!-- 中间 -->
+
+            <LinearLayout
+                android:id="@+id/frag_main_page_new_ll_center"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <!-- 底部 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <!--添加的会员账户信息-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="@dimen/height_personal_center_top_bar"-->
+            <!--android:background="@drawable/bg_personal_center_top_bar"-->
+            <!--android:orientation="vertical" >-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:orientation="horizontal" >-->
+
+                <!--<LinearLayout-->
+                    <!--android:id="@+id/frag_personal_center_lin_username_userlevel"-->
+                    <!--android:layout_width="fill_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="20dp"-->
+                    <!--android:orientation="horizontal" >-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/frag_personal_center_txt_username"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="加载中"-->
+                        <!--android:textColor="@color/text_black"-->
+                        <!--android:textSize="@dimen/size_text_personal_center_username" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/frag_personal_center_txt_user_level"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginLeft="10dp"-->
+                        <!--android:background="@drawable/bg_personal_center_user_level"-->
+                        <!--android:gravity="center"-->
+                        <!--android:text="加载中"-->
+                        <!--android:textColor="@color/text_user_level" />-->
+                <!--</LinearLayout>-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:id="@+id/frag_personal_center_ll_money_bar"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="70dp"-->
+                <!--android:background="@drawable/bg_personal_center_user_money_bar"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:orientation="horizontal" >-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:gravity="center"-->
+                    <!--android:orientation="vertical" >-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/frag_personal_center_txt_money_all"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="加载中"-->
+                        <!--android:textColor="@color/text_black"-->
+                        <!--android:textSize="@dimen/size_text_personal_center_money" />-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginTop="6dp"-->
+                        <!--android:gravity="center"-->
+                        <!--android:text="资金金额"-->
+                        <!--android:textColor="@color/text_gray"-->
+                        <!--android:textSize="@dimen/size_text_personal_center_money_label" />-->
+                <!--</LinearLayout>-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="fill_parent"-->
+                    <!--android:paddingBottom="15dp"-->
+                    <!--android:paddingTop="15dp" >-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="1dp"-->
+                        <!--android:layout_height="fill_parent"-->
+                        <!--android:background="@drawable/line_seperate_vertical" />-->
+                <!--</LinearLayout>-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:gravity="center"-->
+                    <!--android:orientation="vertical" >-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/frag_personal_center_txt_money_can_use"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="加载中"-->
+                        <!--android:textColor="@color/text_orange"-->
+                        <!--android:textSize="@dimen/size_text_personal_center_money" />-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginTop="6dp"-->
+                        <!--android:gravity="center"-->
+                        <!--android:text="可用金额"-->
+                        <!--android:textColor="@color/text_gray"-->
+                        <!--android:textSize="@dimen/size_text_personal_center_money_label" />-->
+                <!--</LinearLayout>-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="fill_parent"-->
+                    <!--android:paddingBottom="15dp"-->
+                    <!--android:paddingTop="15dp" >-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="1dp"-->
+                        <!--android:layout_height="fill_parent"-->
+                        <!--android:background="@drawable/line_seperate_vertical" />-->
+                <!--</LinearLayout>-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:gravity="center"-->
+                    <!--android:orientation="vertical" >-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/frag_personal_center_txt_money_freeze"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="加载中"-->
+                        <!--android:textColor="@color/text_black"-->
+                        <!--android:textSize="@dimen/size_text_personal_center_money" />-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginTop="6dp"-->
+                        <!--android:gravity="center"-->
+                        <!--android:text="冻结金额"-->
+                        <!--android:textColor="@color/text_gray"-->
+                        <!--android:textSize="@dimen/size_text_personal_center_money_label" />-->
+                <!--</LinearLayout>-->
+            <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_lsv_item"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rec_single_set_item"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="累计成交额"
+                        android:textColor="@color/text_gray"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/frag_main_page_new_tv_virtual_money_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="@color/text_blue"
+                        android:textSize="19sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="(万元)"
+                        android:textColor="@color/text_gray"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="累计创造收益"
+                        android:textColor="@color/text_gray"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/frag_main_page_new_tv_virtual_money_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="11dp"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="@color/text_orange"
+                        android:textSize="19sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="11dp"
+                        android:gravity="center"
+                        android:text="(万元)"
+                        android:textColor="@color/text_gray"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="本息保障金"
+                        android:textColor="@color/text_gray"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/frag_main_page_new_tv_virtual_money_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="11dp"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="@color/text_green_light"
+                        android:textSize="19sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="11dp"
+                        android:gravity="center"
+                        android:text="（万元）"
+                        android:textColor="@color/text_gray"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+    </com.handmark.pulltorefresh.library.PullToRefreshScrollView>
+
+</LinearLayout>

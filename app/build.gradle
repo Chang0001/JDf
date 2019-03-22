@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        applicationId "com.fanwe.p2p"
+        minSdkVersion 16
+        targetSdkVersion 21
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:19.1.0'
+    compile files('libs/afinal-db-bin-1.0.1.jar')
+    compile files('libs/eventbus-bin-1.0.jar')
+    compile files('libs/fastjson-1.1.39.jar')
+    compile files('libs/ioc-1.0.0.jar')
+    compile files('libs/jpush-sdk-release1.6.3.jar')
+    compile files('libs/ta-bin-1.2.0.jar')
+    compile files('libs/universal-image-loader-1.9.1.jar')
+    implementation project(':library_PullToRefresh')
+    compile 'com.android.support:appcompat-v7:22.2.1'
+}

@@ -1,0 +1,163 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_lsv_item_i_want_borrow"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_i_want_borrow_lsv_item_loaning_top"
+        android:gravity="center_vertical"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/item_lsv_published_borrow_txt_borrow_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="借款中"
+                android:textColor="@color/text_gray"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:background="#ffD9D8D9"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp" />
+
+            <TextView
+                android:id="@+id/item_lsv_published_borrow_txt_borrow_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="福州群升国际个人个人房产抵押借款"
+                android:textColor="@color/text_gray" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="0dp"
+            android:background="#E1E0E1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item_lsv_my_invest_lin_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/item_lsv_published_borrow_txt_amount_of_money"
+                    style="@style/Text_nromal_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="￥200万"
+                    
+                    android:textColor="@color/text_black" />
+
+                <TextView
+                    android:id="@+id/item_lsv_published_borrow_txt_amount_of_money_label"
+                    style="@style/Text_nromal_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="金额"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/text_gray" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/item_lsv_published_borrow_txt_borrow_rate_year"
+                    style="@style/Text_nromal_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="18.00%"
+                    android:textColor="@color/text_black" />
+
+                <TextView
+                    android:id="@+id/item_lsv_published_borrow_txt_borrow_rate_year_label"
+                    style="@style/Text_nromal_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="年利率"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/text_gray" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/item_lsv_published_borrow_txt_time_limit"
+                    style="@style/Text_nromal_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6月"
+                    android:textColor="@color/text_black" />
+
+                <TextView
+                    android:id="@+id/item_lsv_published_borrow_txt_time_limit_label"
+                    style="@style/Text_nromal_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="期限"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/text_gray" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <com.fanwe.p2p.customview.RoundProgressBar
+                android:id="@+id/item_lsv_published_borrow_pgb_borrow_progress"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

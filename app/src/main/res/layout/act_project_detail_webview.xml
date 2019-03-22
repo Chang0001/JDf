@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.fanwe.p2p.customview.SDSimpleTitleView
+        android:id="@+id/act_project_detail_webview_title"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/title_height" />
+
+    <ProgressBar
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:id="@+id/act_project_detail_webview_pgb_progress"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp" />
+
+    <WebView
+        android:id="@+id/act_project_detail_webview_web"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>

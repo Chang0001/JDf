@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_all"
+    android:orientation="vertical" >
+
+    <com.fanwe.p2p.customview.SDSimpleTitleView
+        android:id="@+id/frag_personal_center_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@drawable/bg_title" >
+    </com.fanwe.p2p.customview.SDSimpleTitleView>
+
+    <!-- <RelativeLayout -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="fill_parent" > -->
+
+
+    <!-- <TextView -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:text="lwyxy2014" -->
+    <!-- android:textColor="@color/text_black" -->
+    <!-- android:layout_alignParentBottom="true" -->
+    <!-- android:layout_above="" -->
+    <!-- android:textSize="@dimen/size_text_personal_center_username" /> -->
+    <!-- </RelativeLayout> -->
+
+
+    <!-- <ScrollView -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" > -->
+
+    <com.handmark.pulltorefresh.library.PullToRefreshScrollView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/frag_personal_center_scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        ptr:ptrHeaderSubTextColor="@color/text_gray"
+        ptr:ptrHeaderTextColor="@color/text_gray" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- 上半部 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/height_personal_center_top_bar"
+                android:background="@drawable/bg_personal_center_top_bar"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/frag_personal_center_lin_username_userlevel"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/frag_personal_center_txt_username"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="加载中"
+                            android:textColor="@color/text_black"
+                            android:textSize="@dimen/size_text_personal_center_username" />
+
+                        <TextView
+                            android:id="@+id/frag_personal_center_txt_user_level"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/bg_personal_center_user_level"
+                            android:gravity="center"
+                            android:text="加载中"
+                            android:textColor="@color/text_user_level" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/frag_personal_center_ll_money_bar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="70dp"
+                    android:background="@drawable/bg_personal_center_user_money_bar"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/frag_personal_center_txt_money_all"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="加载中"
+                            android:textColor="@color/text_black"
+                            android:textSize="@dimen/size_text_personal_center_money" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="6dp"
+                            android:gravity="center"
+                            android:text="总资产"
+                            android:textColor="@color/text_gray"
+                            android:textSize="@dimen/size_text_personal_center_money_label" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:paddingBottom="15dp"
+                        android:paddingTop="15dp" >
+
+                        <TextView
+                            android:layout_width="1dp"
+                            android:layout_height="fill_parent"
+                            android:background="@drawable/line_seperate_vertical" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/frag_personal_center_txt_money_can_use"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="加载中"
+                            android:textColor="@color/text_orange"
+                            android:textSize="@dimen/size_text_personal_center_money" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="6dp"
+                            android:gravity="center"
+                            android:text="USDT"
+                            android:textColor="@color/text_gray"
+                            android:textSize="@dimen/size_text_personal_center_money_label" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:paddingBottom="15dp"
+                        android:paddingTop="15dp" >
+
+                        <TextView
+                            android:layout_width="1dp"
+                            android:layout_height="fill_parent"
+                            android:background="@drawable/line_seperate_vertical" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/frag_personal_center_txt_money_freeze"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="加载中"
+                            android:textColor="@color/text_black"
+                            android:textSize="@dimen/size_text_personal_center_money" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="6dp"
+                            android:gravity="center"
+                            android:text="奖励X币"
+                            android:textColor="@color/text_gray"
+                            android:textSize="@dimen/size_text_personal_center_money_label" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/frag_personal_center_iv_div1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/line_shadow" />
+            <!-- 下半部 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <com.fanwe.p2p.customview.SDSimpleSetItemView
+                    android:id="@+id/frag_personal_center_item_recharge_withdraw"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/height_personal_center_item"/>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical" >
+
+                    <com.fanwe.p2p.customview.SDSimpleSetItemView
+                        android:id="@+id/frag_personal_center_item_my_invest"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/height_personal_center_item" />
+
+                    <com.fanwe.p2p.customview.SDSimpleSetItemView
+                        android:id="@+id/frag_personal_center_item_bond_transfer"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/height_personal_center_item" />
+
+                    <com.fanwe.p2p.customview.SDSimpleSetItemView
+                        android:id="@+id/frag_personal_center_item_my_interest_bid"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/height_personal_center_item" />
+
+                    <com.fanwe.p2p.customview.SDSimpleSetItemView
+                        android:id="@+id/frag_personal_center_item_bid_recorder"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/height_personal_center_item" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical" >
+
+                    <com.fanwe.p2p.customview.SDSimpleSetItemView
+                        android:id="@+id/frag_personal_center_item_repayment_loan"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/height_personal_center_item" />
+
+                    <com.fanwe.p2p.customview.SDSimpleSetItemView
+                        android:id="@+id/frag_personal_center_item_published_loan"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/height_personal_center_item" />
+                </LinearLayout>
+
+                <com.fanwe.p2p.customview.SDSimpleSetItemView
+                    android:id="@+id/frag_personal_center_item_modify_password"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/height_personal_center_item"
+                    android:layout_marginTop="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.handmark.pulltorefresh.library.PullToRefreshScrollView>
+    <!-- </ScrollView> -->
+
+</LinearLayout>

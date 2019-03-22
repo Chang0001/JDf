@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_all"
+    android:orientation="vertical" >
+
+    <com.fanwe.p2p.customview.SDSimpleTitleView
+        android:id="@+id/frag_more_setting_title"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/title_height" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="@dimen/page_space" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <!-- 清除缓存 -->
+
+                <com.fanwe.p2p.customview.SDSimpleSetItemView
+                    android:id="@+id/frag_more_setting_item_clear_cache"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/height_personal_center_item" />
+
+                <!-- 客服电话 -->
+
+                <com.fanwe.p2p.customview.SDSimpleSetItemView
+                    android:id="@+id/frag_more_setting_item_servic_phone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/height_personal_center_item" />
+
+                <!-- 客服邮箱 -->
+
+                <com.fanwe.p2p.customview.SDSimpleSetItemView
+                    android:id="@+id/frag_more_setting_item_service_email"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/height_personal_center_item" />
+
+                <!-- 关于我们 -->
+
+                <com.fanwe.p2p.customview.SDSimpleSetItemView
+                    android:id="@+id/frag_more_setting_item_about_us"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/height_personal_center_item" />
+
+                <!-- 版本检测 -->
+
+                <com.fanwe.p2p.customview.SDSimpleSetItemView
+                    android:id="@+id/frag_more_setting_item_check_version"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/height_personal_center_item" />
+            </LinearLayout>
+
+            <!-- 退出帐号 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <com.fanwe.p2p.customview.SDSimpleSetItemView
+                    android:id="@+id/frag_more_setting_item_exit_account"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/height_personal_center_item" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

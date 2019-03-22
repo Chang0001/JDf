@@ -1,0 +1,588 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:2:1-334:12
+INJECTED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:2:1-334:12
+INJECTED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:2:1-334:12
+INJECTED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:2:1-334:12
+MERGED from [com.android.support:appcompat-v7:22.2.1] C:\Users\14203\.gradle\caches\transforms-1\files-1.1\appcompat-v7-22.2.1.aar\608b675ca2993f35df0a3f3c7f9f2b35\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\14203\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.1.aar\7477410662b5d193e19729608537db0d\AndroidManifest.xml:17:1-24:12
+MERGED from [:library_PullToRefresh] C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\library_PullToRefresh\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-13:12
+INJECTED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:2:1-334:12
+INJECTED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:2:1-334:12
+INJECTED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:2:1-334:12
+	package
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:6:5-30
+		INJECTED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:5:5-37
+		INJECTED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml
+	android:installLocation
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:4:5-35
+uses-sdk
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:8:5-10:41
+INJECTED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:8:5-10:41
+INJECTED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:22.2.1] C:\Users\14203\.gradle\caches\transforms-1\files-1.1\appcompat-v7-22.2.1.aar\608b675ca2993f35df0a3f3c7f9f2b35\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.1] C:\Users\14203\.gradle\caches\transforms-1\files-1.1\appcompat-v7-22.2.1.aar\608b675ca2993f35df0a3f3c7f9f2b35\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\14203\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.1.aar\7477410662b5d193e19729608537db0d\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\14203\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.1.aar\7477410662b5d193e19729608537db0d\AndroidManifest.xml:20:5-43
+MERGED from [:library_PullToRefresh] C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\library_PullToRefresh\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:40
+MERGED from [:library_PullToRefresh] C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\library_PullToRefresh\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:40
+INJECTED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:8:5-10:41
+INJECTED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:8:5-10:41
+	android:targetSdkVersion
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:10:9-38
+		INJECTED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:9:9-34
+		INJECTED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml
+permission#com.fanwe.p2p.permission.JPUSH_MESSAGE
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:12:5-14:47
+	android:protectionLevel
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:14:9-44
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:13:9-62
+uses-permission#com.fanwe.p2p.permission.JPUSH_MESSAGE
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:16:5-78
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:16:22-75
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:17:22-78
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:18:5-69
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:18:22-66
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:19:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:20:5-67
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:20:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:21:5-68
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:21:22-65
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:22:5-75
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:22:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:24:5-80
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:24:22-77
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:25:5-73
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:25:22-70
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:26:5-66
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:26:22-63
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:27:5-84
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:27:22-81
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:28:22-76
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:29:5-78
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:29:22-75
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:30:5-81
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:30:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:31:5-76
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:31:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:32:5-76
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:32:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:33:5-79
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:33:22-76
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:34:5-89
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:34:22-86
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:35:5-79
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:35:22-76
+application
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:37:5-332:19
+MERGED from [com.android.support:appcompat-v7:22.2.1] C:\Users\14203\.gradle\caches\transforms-1\files-1.1\appcompat-v7-22.2.1.aar\608b675ca2993f35df0a3f3c7f9f2b35\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.1] C:\Users\14203\.gradle\caches\transforms-1\files-1.1\appcompat-v7-22.2.1.aar\608b675ca2993f35df0a3f3c7f9f2b35\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\14203\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.1.aar\7477410662b5d193e19729608537db0d\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\14203\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.1.aar\7477410662b5d193e19729608537db0d\AndroidManifest.xml:22:5-20
+MERGED from [:library_PullToRefresh] C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\library_PullToRefresh\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20
+MERGED from [:library_PullToRefresh] C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\library_PullToRefresh\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20
+	android:label
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:41:9-41
+	android:icon
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:40:9-38
+	android:allowBackup
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:39:9-35
+	android:theme
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:42:9-42
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:38:9-53
+activity#com.fanwe.p2p.InitActivity
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:43:9-51:20
+	android:label
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:45:13-45
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:44:13-54
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:46:13-50:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:47:17-69
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:47:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:49:17-77
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:49:27-74
+receiver#com.ta.util.netstate.TANetworkStateReceiver
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:53:9-58:20
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:53:19-77
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE+ta.android.net.conn.CONNECTIVITY_CHANGE
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:54:13-57:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:55:17-79
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:55:25-76
+action#ta.android.net.conn.CONNECTIVITY_CHANGE
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:56:17-82
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:56:25-79
+service#com.fanwe.p2p.service.AppUpgradeService
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:61:9-62:19
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:61:18-72
+activity#com.fanwe.p2p.MainActivity
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:66:9-73:20
+	android:screenOrientation
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:70:13-49
+	android:launchMode
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:69:13-44
+	android:windowSoftInputMode
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:71:13-52
+	android:configChanges
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:68:13-72
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:67:13-54
+activity#com.fanwe.p2p.LoginActivity
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:75:9-80:20
+	android:screenOrientation
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:78:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:79:13-52
+	android:configChanges
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:77:13-72
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:76:13-55
+activity#com.fanwe.p2p.RegisteActivity
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:82:9-87:20
+	android:screenOrientation
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:85:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:86:13-52
+	android:configChanges
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:84:13-72
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:83:13-57
+meta-data#UMENG_APPKEY
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:89:9-92:21
+	android:value
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:91:13-41
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:90:13-40
+meta-data#UMENG_CHANNEL
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:93:9-95:42
+	android:value
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:95:13-39
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:94:13-41
+activity#com.fanwe.p2p.ResetPasswordActivity
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:97:9-102:20
+	android:screenOrientation
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:100:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:101:13-52
+	android:configChanges
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:99:13-72
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:98:13-63
+activity#com.fanwe.p2p.SearchDealsActivity
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:104:9-109:20
+	android:screenOrientation
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:107:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:108:13-52
+	android:configChanges
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:106:13-72
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:105:13-61
+activity#com.fanwe.p2p.MyInterestBidActivity
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:112:9-117:20
+	android:screenOrientation
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:115:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:116:13-52
+	android:configChanges
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:114:13-72
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:113:13-63
+activity#com.fanwe.p2p.ProjectDetailActivity
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:119:9-124:20
+	android:screenOrientation
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:122:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:123:13-52
+	android:configChanges
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:121:13-72
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:120:13-63
+activity#com.fanwe.p2p.ProjectDetailWebviewActivity
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:126:9-131:20
+	android:screenOrientation
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:129:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:130:13-52
+	android:configChanges
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:128:13-72
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:127:13-70
+activity#com.fanwe.p2p.ConfirmBidActivity
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:133:9-138:20
+	android:screenOrientation
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:136:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:137:13-52
+	android:configChanges
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:135:13-72
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:134:13-60
+activity#com.fanwe.p2p.WithdrawSelectBankCardActivity
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:140:9-145:20
+	android:screenOrientation
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:143:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:144:13-52
+	android:configChanges
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:142:13-72
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:141:13-72
+activity#com.fanwe.p2p.UcTransferActivity
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:146:9-151:20
+	android:screenOrientation
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:149:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:150:13-52
+	android:configChanges
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:148:13-72
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:147:13-60
+activity#com.fanwe.p2p.AddBankCardActivity
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:153:9-158:20
+	android:screenOrientation
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:156:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:157:13-52
+	android:configChanges
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:155:13-72
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:154:13-61
+activity#com.fanwe.p2p.RechargeActivity
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:160:9-165:20
+	android:screenOrientation
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:163:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:164:13-52
+	android:configChanges
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:162:13-72
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:161:13-58
+activity#com.fanwe.p2p.RechargeLogActivity
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:167:9-172:20
+	android:screenOrientation
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:170:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:171:13-52
+	android:configChanges
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:169:13-72
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:168:13-61
+activity#com.fanwe.p2p.UcWantTransferActivity
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:174:9-179:20
+	android:screenOrientation
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:177:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:178:13-52
+	android:configChanges
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:176:13-72
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:175:13-64
+activity#com.fanwe.p2p.ApplyWithdrawActivity
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:181:9-186:20
+	android:screenOrientation
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:184:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:185:13-52
+	android:configChanges
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:183:13-72
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:182:13-63
+activity#com.fanwe.p2p.RepayBorrowListActivity
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:188:9-193:20
+	android:screenOrientation
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:191:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:192:13-52
+	android:configChanges
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:190:13-72
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:189:13-65
+activity#com.fanwe.p2p.MyInvestActivity
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:195:9-200:20
+	android:screenOrientation
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:198:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:199:13-52
+	android:configChanges
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:197:13-72
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:196:13-58
+activity#com.fanwe.p2p.ConfirmTransferBondActivity
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:202:9-207:20
+	android:screenOrientation
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:205:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:206:13-52
+	android:configChanges
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:204:13-72
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:203:13-69
+activity#com.fanwe.p2p.ConfirmTransferBondCantBuyActivity
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:209:9-214:20
+	android:screenOrientation
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:212:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:213:13-52
+	android:configChanges
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:211:13-72
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:210:13-76
+activity#com.fanwe.p2p.RepayBorrowRepayActivity
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:216:9-221:20
+	android:screenOrientation
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:219:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:220:13-52
+	android:configChanges
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:218:13-72
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:217:13-66
+activity#com.fanwe.p2p.UcRepayBorrowAdvanceActivity
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:223:9-228:20
+	android:screenOrientation
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:226:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:227:13-52
+	android:configChanges
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:225:13-72
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:224:13-70
+activity#com.fanwe.p2p.PublishedBorrowActivity
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:230:9-235:20
+	android:screenOrientation
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:233:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:234:13-52
+	android:configChanges
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:232:13-72
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:231:13-65
+activity#com.fanwe.p2p.BidRecorderActivity
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:237:9-242:20
+	android:screenOrientation
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:240:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:241:13-52
+	android:configChanges
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:239:13-72
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:238:13-61
+activity#com.fanwe.p2p.UcResetpasswordActivity
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:244:9-249:20
+	android:screenOrientation
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:247:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:248:13-52
+	android:configChanges
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:246:13-72
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:245:13-65
+activity#cn.jpush.android.ui.PushActivity
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:253:9-263:20
+	android:configChanges
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:255:13-63
+	android:theme
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:256:13-72
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:254:13-60
+intent-filter#android.intent.category.DEFAULT+cn.jpush.android.ui.PushActivity+com.fanwe.p2p
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:257:13-262:29
+action#cn.jpush.android.ui.PushActivity
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:258:17-75
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:258:25-72
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:260:17-76
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:260:27-73
+category#com.fanwe.p2p
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:261:17-58
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:261:27-55
+service#cn.jpush.android.service.DownloadService
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:265:9-269:19
+	android:enabled
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:267:13-35
+	android:exported
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:268:13-37
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:266:13-68
+service#cn.jpush.android.service.PushService
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:272:9-282:19
+	android:enabled
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:274:13-35
+	android:exported
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:275:13-37
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:273:13-64
+intent-filter#cn.jpush.android.intent.PUSH_TIME+cn.jpush.android.intent.PushService+cn.jpush.android.intent.REGISTER+cn.jpush.android.intent.REPORT
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:276:13-281:29
+action#cn.jpush.android.intent.REGISTER
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:277:17-75
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:277:25-72
+action#cn.jpush.android.intent.REPORT
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:278:17-73
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:278:25-70
+action#cn.jpush.android.intent.PushService
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:279:17-78
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:279:25-75
+action#cn.jpush.android.intent.PUSH_TIME
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:280:17-76
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:280:25-73
+receiver#cn.jpush.android.service.PushReceiver
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:285:9-303:20
+	android:enabled
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:287:13-35
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:286:13-65
+intent-filter#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY+com.fanwe.p2p
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:288:13-291:29
+	android:priority
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:288:28-51
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:289:17-94
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:289:25-91
+intent-filter#android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:292:13-295:29
+action#android.intent.action.USER_PRESENT
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:293:17-77
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:293:25-74
+intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_REMOVED
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:297:13-302:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:298:17-78
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:298:25-75
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:299:17-80
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:299:25-77
+data
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:301:17-50
+	android:scheme
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:301:23-47
+receiver#cn.jpush.android.service.AlarmReceiver
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:306:9-75
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:306:19-72
+receiver#com.fanwe.p2p.receiver.JPushReceiver
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:309:9-322:20
+	android:enabled
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:311:13-35
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:310:13-64
+intent-filter#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK+cn.jpush.android.intent.CONNECTION+cn.jpush.android.intent.MESSAGE_RECEIVED+cn.jpush.android.intent.NOTIFICATION_OPENED+cn.jpush.android.intent.NOTIFICATION_RECEIVED+cn.jpush.android.intent.REGISTRATION+cn.jpush.android.intent.UNREGISTRATION+com.fanwe.p2p
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:312:13-321:29
+action#cn.jpush.android.intent.REGISTRATION
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:313:17-79
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:313:25-76
+action#cn.jpush.android.intent.UNREGISTRATION
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:314:17-81
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:314:25-78
+action#cn.jpush.android.intent.MESSAGE_RECEIVED
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:315:17-83
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:315:25-80
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:316:17-88
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:316:25-85
+action#cn.jpush.android.intent.NOTIFICATION_OPENED
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:317:17-86
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:317:25-83
+action#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:318:17-91
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:318:25-88
+action#cn.jpush.android.intent.CONNECTION
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:319:17-77
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:319:25-74
+meta-data#JPUSH_CHANNEL
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:325:9-327:49
+	android:value
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:327:13-46
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:326:13-41
+meta-data#JPUSH_APPKEY
+ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:328:9-330:56
+	android:value
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:330:13-53
+	android:name
+		ADDED from C:\Users\14203\AndroidStudioProjects\fanwe_P2P1\app\src\main\AndroidManifest.xml:329:13-40

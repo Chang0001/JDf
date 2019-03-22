@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:paddingBottom="5dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="5dp" >
+
+    <TextView
+        android:id="@+id/inverstdetail_item_tv_left"
+        style="@style/Text_nromal_white"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2"
+        android:gravity="center_vertical"
+        android:text="借款金额"
+        android:textColor="@color/text_black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/inverstdetail_item_tv_right"
+        style="@style/Text_nromal_white"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="借款金额"
+        android:textColor="@color/text_black" />
+
+</LinearLayout>
